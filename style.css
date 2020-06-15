@@ -1,0 +1,37 @@
+.board {
+    height: 300px;
+    width: 300px;
+    border: solid 2px black;
+    overflow: hidden;
+    position: relative
+}
+
+.tail {
+    height: 20px;
+    width: 20px;
+    background-color: grey;
+    position: absolute;
+    z-index: 99;
+
+    /* Hides new tail pieces when created */
+    top: -20px;
+    left: -20px;
+}
+
+.snake {
+    height: 20px;
+    width: 20px;
+    background-color: navy;
+    position: absolute;
+    z-index: 100;
+}
+
+.fruit {
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    z-index: 98;
+    position: absolute;
+    border-radius: 10px;
+}
+
