@@ -1,6 +1,6 @@
 .board {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     border: solid 2px black;
     overflow: hidden;
     position: relative;
