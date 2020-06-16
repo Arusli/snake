@@ -188,4 +188,4 @@ function listen(){
 
 
 
-let loop = setInterval(theSnake.updateSnake, 150);
+let loop = setInterval(theSnake.updateSnake, 180);
