@@ -17,8 +17,8 @@ let score = document.querySelector('.score');
 
 
 function newFruit() {
-    fruitX = Math.floor(Math.random() * 15) * 20;
-    fruitY = Math.floor(Math.random() * 15) * 20;
+    fruitX = Math.floor(Math.random() * 10) * 20;
+    fruitY = Math.floor(Math.random() * 10) * 20;
    
     fruit.style.left = fruitX + 'px'
     fruit.style.top = fruitY + 'px'
@@ -61,20 +61,20 @@ let theSnake = {
         //Problem solved: storing xPosition and yPosition globally, as a single value, and with no recursive reference to snake.style.left.
 
        
-            if (yPosition > 280) {
+            if (yPosition > 180) {
                 yPosition = 0;
             }
             
             if (yPosition < 0) {
-                yPosition = 280;
+                yPosition = 180;
             }
             
-            if (xPosition > 280) {
+            if (xPosition > 180) {
                 xPosition = 0;
             }
             
             if (xPosition < 0) {
-                xPosition = 280;
+                xPosition = 180;
             }
             
 
